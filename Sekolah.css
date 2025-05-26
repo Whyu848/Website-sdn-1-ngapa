@@ -1,0 +1,14 @@
+.profil-container {
+  display: flex;
+  gap: 20px; /* Jarak antar gambar */
+  justify-content: center; /* Tengah secara horizontal */
+  flex-wrap: wrap; /* Agar tetap responsif di layar kecil */
+  margin-top: 20px;
+}
+
+.profil-img {
+  width: 300px; /* Atur ukuran sesuai kebutuhan */
+  height: auto;
+  border-radius: 10px; /* Opsional: sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opsional: bayangan */
+}
